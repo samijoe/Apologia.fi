@@ -10,9 +10,10 @@
   <path d="M96 14 L34 186 L58 186 L92 92 L96 14 Z" fill="#f2ede6"/>
   <!-- right half of the mark -->
   <path d="M104 14 L166 186 L142 186 L108 92 L104 14 Z" fill="#f2ede6"/>
-  <!-- crossbar, split at the seam -->
-  <path d="M62 122 L92 122 L88 138 L58 138 Z" fill="#f2ede6"/>
-  <path d="M138 122 L108 122 L112 138 L142 138 Z" fill="#f2ede6"/>
-  <!-- the fissure of red light down the center -->
-  <path d="M100 10 L104 92 L112 138 L118 190 L112 190 L104 140 L96 94 L92 12 Z" fill="url(#crackGlow)"/>
+  <!-- short upper arm of the cross -->
+  <path d="M97 92 L103 92 L106 116 L94 116 Z" fill="url(#crackGlow)"/>
+  <!-- long lower arm of the cross -->
+  <path d="M94 138 L106 138 L110 190 L90 190 Z" fill="url(#crackGlow)"/>
+  <!-- horizontal arm of the cross, set low so the upper arm stays short -->
+  <path d="M70 116 L130 116 L134 138 L66 138 Z" fill="url(#crackGlow)"/>
 </svg>
