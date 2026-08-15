@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="crackGlow" x1="100" y1="10" x2="100" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3231f"/>
+      <stop offset="0.55" stop-color="#7a1220"/>
+      <stop offset="1" stop-color="#3a0a10"/>
+    </linearGradient>
+  </defs>
+  <!-- left half of the mark -->
+  <path d="M96 14 L34 186 L58 186 L92 92 L96 14 Z" fill="#f2ede6"/>
+  <!-- right half of the mark -->
+  <path d="M104 14 L166 186 L142 186 L108 92 L104 14 Z" fill="#f2ede6"/>
+  <!-- short upper arm of the cross -->
+  <path d="M97 92 L103 92 L106 116 L94 116 Z" fill="url(#crackGlow)"/>
+  <!-- long lower arm of the cross -->
+  <path d="M94 138 L106 138 L110 190 L90 190 Z" fill="url(#crackGlow)"/>
+  <!-- horizontal arm of the cross, set low so the upper arm stays short -->
+  <path d="M70 116 L130 116 L134 138 L66 138 Z" fill="url(#crackGlow)"/>
+</svg>
